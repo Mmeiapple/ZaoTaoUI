@@ -16,7 +16,7 @@ class SetDriver:
         return self.drivre
     def Quit(self):
         time.sleep(5)
-        self.drivre.quit()
+        return self.drivre.quit()
 if __name__=='__main__':
     setDriver=SetDriver()
     setDriver.Enter()
