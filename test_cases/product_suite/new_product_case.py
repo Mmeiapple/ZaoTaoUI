@@ -23,6 +23,7 @@ class newProduct(unittest.TestCase):
         time.sleep(2)
         self.driver.quit()
     def test_newproduct(self):
+        '''测试新建用户'''
         #登录
         a=userLogin(self.driver,'admin','Hm123456')
         a.Userlogin()
